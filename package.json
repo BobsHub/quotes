@@ -1,0 +1,27 @@
+{
+  "name": "quotes",
+  "version": "1.0.0",
+  "description": "Quote generator",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^0.2.10",
+    "express": "^3.2.6",
+    "mongodb": "^2.0.48",
+    "socket.io": "^0.9.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Rob",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BobsHub/quotes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BobsHub/quotes/issues"
+  },
+  "homepage": "https://github.com/BobsHub/quotes#readme"
+}
